@@ -93,7 +93,7 @@ function tinyFriend(names){
     return shortestName;
 }
 let names=['Shefali','Sheherjan','MuntasirulIslam']; //declare the names.
-let tinyFriendName = tinyFriend(names); 
+var tinyFriendName = tinyFriend(names); 
 
 if(names == null || names.length == 0)
 {
